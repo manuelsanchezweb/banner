@@ -63,13 +63,23 @@ figure {
 /* Btn  */
 .button {
   text-decoration: none;
+  text-transform: uppercase;
   border: none;
   outline: none;
-  background: white;
+  background-color: white;
   padding: 10px 15px;
   display: flex;
   max-width: fit-content;
   margin: 0 auto;
+  color: #292929;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #e7e6e6;
 }
 
 @media (min-width: 768px) {
